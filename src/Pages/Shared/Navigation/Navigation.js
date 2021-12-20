@@ -110,10 +110,10 @@ export default function PrimarySearchAppBar() {
 
     const [saveProduct, setSaveProduct] = React.useState([]);
     React.useEffect(() => {
-        fetch('http://localhost:5000/saveProduct')
+        fetch('https://safe-chamber-25113.herokuapp.com/saveProduct')
             .then(res => res.json())
             .then(data => setSaveProduct(data))
-    }, [])
+    }, [saveProduct])
 
     const mobileMenuId = 'primary-search-account-menu-mobile';
     const renderMobileMenu = (

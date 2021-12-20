@@ -8,7 +8,7 @@ const AddToCart = () => {
     };
     const [cartProducts, setCartProducts] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/saveProduct')
+        fetch('https://safe-chamber-25113.herokuapp.com/saveProduct')
             .then(res => res.json())
             .then(data => setCartProducts(data))
     }, [])
@@ -17,7 +17,7 @@ const AddToCart = () => {
     const handleCartDelete = id => {
         const proceed = window.confirm('Are you sure, You want to Cancel this Order?')
         if (proceed) {
-            const url = `http://localhost:5000/saveProduct/${id}`;
+            const url = `https://safe-chamber-25113.herokuapp.com/saveProduct/${id}`;
             fetch(url, {
                 method: 'DELETE',
             })

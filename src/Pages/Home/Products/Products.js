@@ -23,14 +23,14 @@ const style = {
 const Products = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://safe-chamber-25113.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
 
 
     const handleAddToCart = (product) => {
-        axios.post('http://localhost:5000/addtocard', product)
+        axios.post('https://safe-chamber-25113.herokuapp.com/addtocard', product)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Bike added successfully');
