@@ -1,7 +1,7 @@
-.App {
-  text-align: center;
+:root {
+  --red: #d81f47;
+  --white: #ffffff;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,12 +27,147 @@
 .App-link {
   color: #61dafb;
 }
+.nav_link{
+  text-decoration: none;
+  color: #2979e7;
+  text-align: center;
+}
+.main_menu .nav_link{
+  color: #fff;
+  padding: 0 10px;
+}
+.search_input input{
+  width: 100% !important;
+}
+.add_btn{
+  background: #ccebe2 !important;
+  transition: all .3s ease-in-out !important;
+  position: relative;
+  z-index: 22;
+  overflow: hidden;
+}
+.add_btn:hover{
+  color: #fff !important;
+}
+.btn_simple{
+  color: rgb(0, 81, 255) !important;
+  border: 1px solid #e5e8ec !important;
+  position: relative;
+  z-index: 22;
+  overflow: hidden;
+  font-weight: 500 !important;
+}
+.btn_simple:hover{
+  color: #fff !important;
+  border: 1px solid transparent !important;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.btn_simple::after,
+.add_btn::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: #25e5b0;
+  z-index: -1;
+  display: block;
+  transition: all .3s ease-in-out;
+}
+.btn_simple:hover:after,
+.add_btn:hover:after{
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.list a{
+    text-decoration: none;
+    color: #818ea0;
+    transition: all .3 ease-in;
+    display: inline-block;
+    padding: 3px 0;
+}
+
+.list a:hover {
+  text-decoration: underline;
+}
+
+
+.display{
+  transform: scale(1) !important;
+}
+.my_cart{
+  position: fixed;
+  z-index: 999;
+  width: 300px;
+  top: 0;
+  right: 0;
+  transform: scale(0);
+  background: #fff;
+  transition: all .3s ease-in-out;
+  overflow: auto;
+  padding: 10px;
+  height: 100%;
+}
+.my_cart h5{
+  color: #282c34;
+}
+
+.cart_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+
+.product_box{
+  border: 1px solid #e5e8ec;
+  box-shadow: none !important;
+  transition: all .3s ease-in-out !important;
+}
+.product_box:hover{
+  border: 1px solid var(--red ) !important;
+  box-shadow: 0 10px 40px 0px rgb(0 0 0 / 15%) !important;
+}
+.product_img{
+  padding: 20px 0;
+}
+.footer_icon{
+  width: 50px;
+  height: 50px;
+  background: #d1d6dd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 22;
+  overflow: hidden;
+}
+.footer_icon::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: #25e5b0;
+  z-index: -1;
+  display: block;
+  transition: all .3s ease-in-out;
+}
+.footer_icon:hover:after{
+  transform: translate(-50%, -50%) scale(1);
+}
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop{
+  background: rgb(0 0 0 / 12%) !important;
+}
+@media screen and (max-width: 600px){
+  .tool_bar{
+    justify-content: space-between !important;
   }
 }

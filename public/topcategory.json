@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "category": "Cell Phones",
+        "list1": "iPhone",
+        "list2": "Phone Accessories",
+        "list3": "Phone Cases",
+        "list4": "Postpaid Phones",
+        "img": "https://klbtheme.com/machic/wp-content/uploads/2021/09/category-1.jpg"
+    },
+    {
+        "id": "2",
+        "category": "Headphones",
+        "list1": "Noise Canceling",
+        "list2": "Over-EAR",
+        "list3": "Premium Headphones",
+        "list4": "Sports & Fitness",
+        "img": "https://klbtheme.com/machic/wp-content/uploads/2021/09/category-2.jpg"
+    },
+    {
+        "id": "3",
+        "category": "Smartwatches",
+        "list1": "Sport Watches",
+        "list2": "Timex Watches",
+        "list3": "Watch Brands",
+        "list4": "Women Watches",
+        "img": "https://klbtheme.com/machic/wp-content/uploads/2021/09/category-5.jpg"
+    }
+]

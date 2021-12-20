@@ -1,0 +1,62 @@
+[
+    {
+        "key": "01",
+        "condition": "New",
+        "category": "desktop",
+        "name": "iBUYPOWER Pro Gaming PC Computer Desktop Element MR 208i",
+        "description": "System: Intel i7-11700F 2.5GHz (4.9GHz Max Turbo) | 16GB DDR4 RAM | 240GB SSD | 1TB HDD | Genuine Windows 10 Home 64-bit. Graphics: NVIDIA GeForce RTX 2060 6GB Dedicated Gaming Video Card | VR Ready | 1x DVI | 1x HDMI | 1x Display Port",
+        "wholePrice": "68",
+        "priceFraction": "36",
+        "stock": 36,
+        "star": 5,
+        "img": "https://i.ibb.co/VV3G3mW/desktop1.jpg",
+        "url": "",
+        "price": 1499.99,
+        "discountPrice": 1200.99
+    },
+    {
+        "key": "02",
+        "condition": "New",
+        "category": "headphone",
+        "name": "Bose SoundLink around-ear wireless headphones II- White",
+        "description": "Deep, immersive sound, improved EQ best in class performance for wireless headphones. Latest Bluetooth technology for easy connectivity and seamless audio or video syncs",
+        "wholePrice": "68",
+        "priceFraction": "36",
+        "stock": 36,
+        "star": 4,
+        "img": "https://i.ibb.co/1vKJtCc/headphone1.jpg",
+        "url": "",
+        "price": 275.99,
+        "discountPrice": 200.99
+    },
+    {
+        "key": "03",
+        "condition": "New",
+        "category": "laptop",
+        "name": "ASUS ROG Strix G15 (2021) Gaming Laptop, 15.6” 300Hz 3ms IPS Type FHD Display",
+        "description": "NVIDIA GeForce RTX 3060 6GB GDDR6 with ROG Boost up to 1802MHz at 115W (130W with Dynamic Boost).AMD Ryzen 7 4800H Processor 2.9 GHz (8M Cache, up to 4.2 GHz)",
+        "wholePrice": "68",
+        "priceFraction": "36",
+        "stock": 36,
+        "star": 5,
+        "img": "https://i.ibb.co/92qCQC7/laptop2.jpg",
+        "url": "",
+        "price": 1499.99,
+        "discountPrice": 1200.99
+    },
+    {
+        "key": "04",
+        "condition": "New",
+        "category": "laptop",
+        "name": "Microsoft Surface Laptop Studio - 14.4 inche Touchscreen - Intel Core i5 - 16GB Memory - 512GB SSD - Platinum",
+        "description": "The most powerful Surface Laptop. Quad-core powered 11th Gen Intel Core H Series processors handle your most complex workloads. Boundary-pushing design with sleek 14.4“ (5) touchscreen makes seamless transitions from laptop to entertainment-ready stage to portable creative canvas.",
+        "wholePrice": "68",
+        "priceFraction": "36",
+        "stock": 36,
+        "star": 4.5,
+        "img": "https://i.ibb.co/KmXmpwS/laptop1.jpg",
+        "url": "",
+        "price": 1499.99,
+        "discountPrice": 1200.99
+    }
+]
